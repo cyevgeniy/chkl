@@ -1,11 +1,3 @@
-/**
- * - [ ] Draft format
- * - [ ] Web viewer
- * - [ ] Landing page
- * - [ ] Documentation (github)
- * - [ ] Mobile app viewer
- */
-
 export interface Author {
 	name: string
 	url?: string
