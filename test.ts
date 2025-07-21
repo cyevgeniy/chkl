@@ -1,38 +1,4 @@
-/**
- * - [ ] Draft format
- * - [ ] Web viewer
- * - [ ] Landing page
- * - [ ] Documentation (github)
- * - [ ] Mobile app viewer
- */
-
-interface Author {
-	name: string
-	url?: string
-	avatar?: string
-}
-
-interface Attachment {
-	url: string
-	mime_type: string
-	alt?: string
-}
-
-interface Item {
-	id: string
-	title: string
-	content_text?: string
-	blocking?: boolean
-	attachments?: Attachment[]
-}
-
-interface Checklist {
-	title?: string
-	description?: string
-	created_at?: string // https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format
-	authors?: Author[]
-	items: Item[]
-}
+import { Checklist } from "./dist"
 
 /**
  * Extensions fields should start with the `_` symbol
