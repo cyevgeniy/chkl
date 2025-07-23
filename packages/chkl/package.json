@@ -1,0 +1,27 @@
+{
+  "name": "chkl",
+  "version": "0.0.1",
+  "description": "Sharable checklist format",
+  "main": "dist/index.d.ts",
+  "scripts": {
+    "test": "tsc test.ts --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyevgeniy/chkl.git"
+  },
+  "keywords": [
+    "checklist",
+    "sharable-checklist"
+  ],
+  "author": "Evgeny Chaban <hi@evg.moe>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyevgeniy/chkl/issues"
+  },
+  "homepage": "https://github.com/cyevgeniy/chkl",
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
