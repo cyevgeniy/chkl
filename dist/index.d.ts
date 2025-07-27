@@ -19,6 +19,7 @@ export interface Item {
 }
 
 export interface Checklist {
+	id: string
 	title?: string
 	description?: string
 	created_at?: string // https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format
