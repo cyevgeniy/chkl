@@ -4,7 +4,6 @@ import { Checklist } from "./dist"
  * Extensions fields should start with the `_` symbol
  */
 const minimalExample: Checklist = {
-	id: '1',
 	items: [
 		{
 			id: '1',
@@ -22,7 +21,6 @@ const minimalExample: Checklist = {
 }
 
 const fullExample: Checklist = {
-	id: '1',
 	title: 'How to get your first task in our project',
 	description: 'This list describes how you can start working on our project',
 	created_at: '2025-07-17',
