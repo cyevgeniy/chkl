@@ -1,4 +1,4 @@
-import { Checklist } from "./dist"
+import { Checklist, Item } from "./dist"
 
 /**
  * Extensions fields should start with the `_` symbol
@@ -59,4 +59,35 @@ const fullExample: Checklist = {
 		},
 	]
 }
+
+
+interface Meta {
+	_tag: string
+	_contexts?: string[]
+}
+
+type ExtendedItem = Item & { _meta: Meta}
+
+interface ExtendedChecklist extends Checklist {
+	_test: string,
+	items: ExtendedItem[]
+
+}
+
+const extendedExample: ExtendedChecklist = {
+	_test: '123',
+	items: [
+		{
+			id: '1',
+			title: 'item 1',
+			_meta: {
+				_tag: 'tag1',
+				_contexts: ['ctx1', 'ctx2'],
+			},
+		}
+	]
+}
+
+// We can still pass it to other clients:
+const checklist: Checklist = extendedExample
 
