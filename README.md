@@ -65,7 +65,8 @@ Here's a full example of a checklist in Open Checklists format:
 }
 ```
 
-And here's the minimal version:
+And here's a minimal version:
+
 
 ```json
 {
@@ -88,13 +89,12 @@ And here's the minimal version:
 
 ### Extensions
 
-Clients can extend open checklists object with any field.
-**All** additional fields (even nested ones) should start from "_" symbol,
-for example: 
+Clients can extend open checklists object.
+**All** additional fields (even nested ones) should start from the `"_"` symbol, for example: 
 
 ```json
 {
-  "_id": 'local_id_1',
+  "_id": "local_id_1",
   "items": [
     {
       "id": "1",
