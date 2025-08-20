@@ -105,8 +105,3 @@ Clients can extend open checklists object.
   ]
 }
 ```
-
-## Similar projects
-
-- [Checklist.design](https://www.checklist.design/)
-- [Devchecklists](https://github.com/vintasoftware/devchecklists.com-content) 
