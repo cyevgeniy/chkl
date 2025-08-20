@@ -1,8 +1,11 @@
 {
-  "name": "chkl",
+  "name": "open-checklists-types",
   "version": "0.0.1",
   "description": "Sharable checklist format",
   "main": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "tsc test.ts --noEmit"
   },
