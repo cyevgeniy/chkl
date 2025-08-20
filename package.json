@@ -14,8 +14,7 @@
     "url": "git+https://github.com/cyevgeniy/chkl.git"
   },
   "keywords": [
-    "checklist",
-    "sharable-checklist"
+    "checklist"  
   ],
   "author": "Evgeny Chaban <hi@evg.moe>",
   "license": "ISC",
