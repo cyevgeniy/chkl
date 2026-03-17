@@ -1,6 +1,6 @@
 {
   "name": "open-checklists",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Sharable checklist format",
   "main": "dist/index.d.ts",
   "files": [
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/cyevgeniy/chkl.git"
   },
   "keywords": [
-    "checklist"  
+    "checklist"
   ],
   "author": "Evgeny Chaban <hi@evg.moe>",
   "license": "ISC",
