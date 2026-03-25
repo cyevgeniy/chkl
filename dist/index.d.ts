@@ -1,10 +1,11 @@
 interface CustomObject {
   [k: `_${string}`]:
     | number
+    | null
     | boolean
     | string
     | CustomObject
-    | Array<number | string | CustomObject>;
+    | Array<number | string | CustomObject | boolean | null>;
 }
 
 export interface Author extends CustomObject {
