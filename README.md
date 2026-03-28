@@ -8,7 +8,22 @@ So the idea is very simple - we often use checklists, almost everywhere, think a
 - To-do lists
 - ... and many more
 
-Inspired by OpenStories, I decided to create something with that - OpenChecklists.
+Inspired by [OpenStories](https://github.com/dddddddddzzzz/OpenStories).
+
+## Usage
+
+Install:
+```bash
+npm i open-checklists
+```
+
+And then use it in your typescript code:
+
+```ts
+import type { Checklist } from 'open-checklists'
+
+const a: Checklist = {...}
+```
 
 ## Spec
 
